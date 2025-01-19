@@ -18,7 +18,7 @@ import { useEffect, useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { ContextoUsuario } from "../contexts/ContextoUsuario";
 import "../styles/MisRecetas.css";
-import imagenCrear from "../assets/comida-tabla.jpg";
+import imagenCrear from "../assets/comida-tabla.webp";
 
 function MisRecetas() {
 	// Estado para almacenar las recetas del usuario
