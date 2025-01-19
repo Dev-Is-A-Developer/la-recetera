@@ -19,7 +19,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import "../styles/RecetasPorCategoria.css";
-import imagenAviso from "../assets/comida-tabla.jpg";
+import imagenAviso from "../assets/comida-tabla.webp";
 
 const RecetasPorCategoria = () => {
 	// Obtener el tipo de categoría de la URL mediante useParams
