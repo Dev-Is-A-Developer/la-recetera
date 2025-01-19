@@ -8,7 +8,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { ContextoUsuario } from "../contexts/ContextoUsuario";
-import "../../styles/Footer.css";
+import "../styles/Footer.css";
 
 function Footer() {
 	const { usuario } = useContext(ContextoUsuario); // Obtiene la información del usuario desde el contexto ContextoUsuario
