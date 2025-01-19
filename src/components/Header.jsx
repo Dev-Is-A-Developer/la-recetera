@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { ContextoUsuario } from "../contexts/ContextoUsuario";
-import "../../styles/Header.css";
+import "../styles/Header.css";
 
 function Header() {
 	const { usuario } = useContext(ContextoUsuario); // Obtiene la información del usuario desde el contexto ContextoUsuario
