@@ -17,12 +17,12 @@ import { Link } from "react-router-dom";
 import "../styles/Categorias.css";
 
 // Importación de imágenes para las categorías
-import imagenDesayuno from "../assets/desayuno.jpg";
-import imagenComida from "../assets/comida.jpg";
-import imagenCena from "../assets/cena.jpg";
-import imagenTapa from "../assets/tapa.jpg";
-import imagenPostre from "../assets/postre.jpg";
-import imagenBebida from "../assets/bebida.jpg";
+import imagenDesayuno from "../assets/desayuno.webp";
+import imagenComida from "../assets/comida.webp";
+import imagenCena from "../assets/cena.webp";
+import imagenTapa from "../assets/tapa.webp";
+import imagenPostre from "../assets/postre.webp";
+import imagenBebida from "../assets/bebida.webp";
 
 // Datos de las categorías: tipo, descripción y ruta de la imagen
 const Categorias = () => {
